@@ -1,0 +1,140 @@
+body{
+	height: 100%;
+	background-image: url(images/background.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-blend-mode: overlay;
+}
+*{
+	box-sizing: border-box;
+}
+.nav-menu{
+	width: 100%;
+	height: 99px;
+	background: gray;
+	margin-top: 10px;
+	display: flex;
+}
+.logo{
+	color: black;
+	margin-top: 25px;
+	font-weight: 900;
+	font-size: 45px;
+	margin-left: 40px;
+}
+.nav-link{
+	text-align: right;
+	margin: auto;
+	margin-right: 100px;
+}
+.nav-link a {
+  text-align: right;
+  margin-top: 100px;
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.nav-link a:hover {
+  background-color: #ddd;
+  color: black;
+}
+.nav-link a.active {
+  color: black;
+}
+.info{
+	display: flex;
+  height: 90vh;
+  width: 100%;
+  overflow: hidden;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+.about{
+	color: white;
+	text-align: center;
+	margin: auto;
+	margin-top: 30px;
+	font-weight: bold;
+	font-size: 35px;
+}
+.about-text{
+	margin-top: 20px;
+	margin-left: 150px;
+	color: white;
+	font-weight: bold;
+	font-size: 20px;
+}
+.info-picture{
+	margin-top: 20px;
+	margin-left: 90px;
+	opacity: 0.9;
+}
+.vision{
+	color: white;
+	text-align: center;
+	margin-top: 30px;
+	font-weight: bold;
+	font-size: 35px;
+}
+.vision-text{
+	color: white;
+	text-align: center;
+	font-weight: bold;
+	font-size: 25px;
+}
+.kdk-footer{
+	display: flex;
+  margin-top: 40px;
+	height: 49vh;
+	background: black;
+  width: 100%; 
+  opacity: 0.8;
+}
+.logo3{
+	color: white;
+	margin-top: 50px;
+	font-weight: 900;
+	font-size:20px;
+	margin-left: 40px;
+}
+.contact1{
+    height: 43vh;
+    width: 250px;
+    overflow: hidden;
+    margin-top: 50px;
+    margin-left: 160px;
+}
+.contact2{
+    height: 43vh;
+    width: 250px;
+    overflow: hidden;
+    margin-top: 50px;
+    margin-left: 70px;    
+}
+.contact3{
+    height: 43vh;
+    width: 290px;
+    overflow: hidden;
+    margin-top: 50px;
+    margin-left: 70px;   
+}
+.contact1-text{
+	color: white;
+	font-weight: bold;
+	font-size: 20px;
+	cursor: pointer;
+}
+.contact2-text{
+	color: white;
+	font-weight: bold;
+	font-size: 20px;
+	cursor: pointer;
+}
+.contact3-text{
+	color: white;
+	font-weight: bold;
+	font-size: 20px;
+}

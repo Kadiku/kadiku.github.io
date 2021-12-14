@@ -1,0 +1,498 @@
+body{
+	height: 100%;
+	background-image: url(images/background.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-blend-mode: overlay;
+}
+*{
+	box-sizing: border-box;
+}
+.nav-menu{
+	width: 100%;
+	height: 99px;
+	background: gray;
+	margin-top: 10px;
+	display: flex;
+}
+.logo{
+	color: black;
+	margin-top: 25px;
+	font-weight: 900;
+	font-size: 45px;
+	margin-left: 40px;
+}
+.nav-link{
+	text-align: right;
+	margin: auto;
+	margin-right: 100px;
+}
+.nav-link a {
+  text-align: right;
+  margin-top: 100px;
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.nav-link a:hover {
+  background-color: #ddd;
+  color: black;
+}
+.nav-link a.active {
+  color: black;
+}
+.track{
+	display: flex;
+    height: 40vh;
+    width: 100%;
+    overflow: hidden;
+    background-image: url(images/back1.jpg);
+    background-blend-mode: overlay;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	opacity: 0.9;
+}
+.track-text{
+	color: white;
+	font-weight: bold;
+	font-size: 25px;
+	margin: auto;
+}
+.track-label{
+	float: left;
+	color: white;
+	font-weight: bold;
+	font-size: 15px;
+	margin: auto;
+	margin-top: 185px;
+	margin-left: -900px;
+}
+input[type=number] {
+	width: 100%;
+	padding-top: 10px;
+	padding-right: 550px;
+}
+.vision{
+	color: black;
+	text-align: center;
+	margin-top: 30px;
+	font-weight: bold;
+	font-size: 35px;
+}
+.vision-text{
+	color: black;
+	text-align: center;
+	font-weight: bold;
+	font-size: 25px;
+}
+.boxes{
+	display: flex;
+    height: 20vh; 
+    width: 100%;
+    overflow: hidden;
+    margin-top: 30px;
+}
+.box-1{
+	display: flex;
+    height: 20vh;
+    width: 300px;
+    overflow: hidden;
+    margin-left: 100px;
+    border: 1px solid black;
+}
+.box1-text{
+	color: black;
+	text-align: center;
+	margin-top: 30px;
+	margin-left: 15px;
+	font-weight: bold;
+	font-size: 20px;
+}
+.box-2{
+	display: flex;
+    height: 20vh;   
+    width: 300px;
+    overflow: hidden;
+    margin-left: 180px;
+    border: 1px solid black;
+}
+.box2-text{
+	color: black;
+	text-align: center;
+	margin-top: 30px;
+	margin-left: 45px;
+	font-weight: bold;
+	font-size: 20px;
+}
+.box-3{
+	display: flex;
+    height: 20vh;
+    width: 300px;
+    overflow: hidden;
+    margin-left: 200px;
+    border: 1px solid; black;
+}
+.box3-text{
+	color: black;
+	text-align: center;
+	margin-top: 30px;
+	margin-left: 20px;
+	font-weight: bold;
+	font-size: 20px;
+}
+.box-1:hover {
+  cursor: pointer;	
+  background: white;
+  opacity: 0.7;
+  color: black;
+}
+.box-2:hover {
+  cursor: pointer;
+  background: white;
+  opacity: 0.7;
+  color: black;
+}
+.box-3:hover {
+  cursor: pointer;
+  background: white;
+  opacity: 0.7;
+  color: black;
+}
+.services{
+    height: 49vh; 
+    width: 100%;
+    display: flex;
+    overflow: hidden;
+    margin-top: 30px;
+}
+.heading{
+	color: black;
+	font-weight: bold;
+	font-size: 35px;
+	text-align: center;
+}
+.service1{
+	border: 2px solid black;
+    height: 43vh;
+    width: 250px;
+    overflow: hidden;
+    margin-left: 160px;
+    background-color: white;
+    opacity: 0.8;
+}
+.service1-image{
+	width: 100%;
+	height: 57%;
+	background-image: url(images/parcel.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+.service1-text{
+	font-weight: bold;
+	margin-top: 30px;
+	font-size: 20px;
+	text-align: center;
+}
+.readmore{
+	font-family: 'Manrope', sans-serif;
+	margin: auto;
+		margin-top: 19px;
+    padding: 8px;
+    border: 1px solid black;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    width: 60%;
+    color: black;
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+    text-align: center;
+}
+.readmore:hover{
+	cursor: pointer;
+    background: black;
+    color: white;
+}
+.service2{
+	border: 2px solid black;
+    height: 43vh;
+    width: 250px;
+    overflow: hidden;
+    margin-left: 50px;
+    background-color: white;
+    opacity: 0.8;
+}
+.service2-image{
+	width: 100%;
+	height: 57%;
+	background-image: url(images/parcel2.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+.service2-text{
+	font-weight: bold;
+	margin-top: 30px;
+	font-size: 20px;
+	text-align: center;
+}
+.service3{
+	border: 2px solid black;
+    height: 43vh;
+    width: 250px;
+    overflow: hidden;
+    margin-left: 50px;
+    background-color: white;
+    opacity: 0.8;
+}
+.service3-image{
+	width: 100%;
+	height: 57%;
+	background-image: url(images/parcel3.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+.service3-text{
+	font-weight: bold;
+	margin-top: 30px;
+	font-size: 20px;
+	text-align: center;
+}
+.service4{
+	border: 2px solid black;
+    height: 43vh;
+    width: 250px;
+    overflow: hidden;
+    margin-left: 50px;
+    background-color: white;
+    opacity: 0.8;
+}
+.service4-image{
+	width: 100%;
+	height: 57%;
+	background-image: url(images/parcel4.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+.service4-text{
+	font-weight: bold;
+	margin-top: 30px;
+	font-size: 20px;
+	text-align: center;
+}
+.products{
+    height: 45vh; 
+    width: 100%;
+    display: flex;
+    overflow: hidden;
+}
+.product1{
+	border: 2px solid black;
+    height: 43vh;
+    width: 250px;
+    overflow: hidden;
+    margin-left: 160px;
+    background-color: white;
+    opacity: 0.8;
+}
+.product1-image{
+	width: 100%;
+	height: 57%;
+	background-image: url(images/product.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+.product1-text{
+	font-weight: bold;
+	margin-top: 30px;
+	font-size: 20px;
+	text-align: center;
+}
+.readmore{
+	font-family: 'Manrope', sans-serif;
+	margin: auto;
+		margin-top: 19px;
+    padding: 8px;
+    border: 1px solid black;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    width: 60%;
+    color: black;
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+    text-align: center;
+}
+.readmore:hover{
+	cursor: pointer;
+    background: black;
+    color: white;
+}
+.product2{
+	border: 2px solid black;
+    height: 43vh;
+    width: 250px;
+    overflow: hidden;
+    margin-left: 50px;
+    background-color: white;
+    opacity: 0.8;
+}
+.product2-image{
+	width: 100%;
+	height: 57%;
+	background-image: url(images/product2.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+.product2-text{
+	font-weight: bold;
+	margin-top: 30px;
+	font-size: 20px;
+	text-align: center;
+}
+.product3{
+	border: 2px solid black;
+    height: 43vh;
+    width: 250px;
+    overflow: hidden;
+    margin-left: 50px;
+    background-color: white;
+    opacity: 0.8;
+}
+.product3-image{
+	width: 100%;
+	height: 57%;
+	background-image: url(images/product3.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+.product3-text{
+	font-weight: bold;
+	margin-top: 30px;
+	font-size: 20px;
+	text-align: center;
+}
+.product4{
+	border: 2px solid black;
+    height: 43vh;
+    width: 250px;
+    overflow: hidden;
+    margin-left: 50px;
+    background-color: white;
+    opacity: 0.8;
+}
+.product4-image{
+	width: 100%;
+	height: 57%;
+	background-image: url(images/product4.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+.product4-text{
+	font-weight: bold;
+	margin-top: 30px;
+	font-size: 20px;
+	text-align: center;
+}
+.testimony{
+    height: 45vh; 
+    width: 100%;
+    display: flex;
+    overflow: hidden;
+}
+.testimony-list{
+	color: white;
+	text-align: center;
+	margin-top: 30px;
+	font-weight: bold;
+	font-size: 35px;
+}
+.testimony1{
+	margin-top: 30px;
+	color: white;
+	font-weight: bold;
+	font-size: 20px;
+}
+.testimony2{
+	margin-top: 30px;
+	color: white;
+	font-weight: bold;
+	font-size: 20px;
+	margin-left: 180px;
+}
+.readmore1{
+	font-family: 'Manrope', sans-serif;
+	margin: auto;
+	margin-top: 19px;
+    padding: 8px;
+    width: 100%;
+    color: white;
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+    text-align: right;
+}
+.kdk-footer{
+	display: flex;
+  margin-top: 40px;
+	height: 49vh;
+	background: black;
+  width: 100%; 
+  opacity: 0.8;
+}
+.logo3{
+	color: white;
+	margin-top: 50px;
+	font-weight: 900;
+	font-size:20px;
+	margin-left: 40px;
+}
+.contact1{
+    height: 43vh;
+    width: 250px;
+    overflow: hidden;
+    margin-top: 50px;
+    margin-left: 160px;
+}
+.contact2{
+    height: 43vh;
+    width: 250px;
+    overflow: hidden;
+    margin-top: 50px;
+    margin-left: 70px;    
+}
+.contact3{
+    height: 43vh;
+    width: 290px;
+    overflow: hidden;
+    margin-top: 50px;
+    margin-left: 70px;   
+}
+.contact1-text{
+	color: white;
+	font-weight: bold;
+	font-size: 20px;
+	cursor: pointer;
+}
+.contact2-text{
+	color: white;
+	font-weight: bold;
+	font-size: 20px;
+	cursor: pointer;
+}
+.contact3-text{
+	color: white;
+	font-weight: bold;
+	font-size: 20px;
+}
